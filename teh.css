@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Tajawal", Arial;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=Varela+Round&display=swap');
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section.hero {
+    background-color: #F0FFF0;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  section.produk {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .pembungkus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-produk {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .card-produk img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+/*VIDIO*/
+.isi-produk{
+  text-align: center;
+}
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video {
+  width: calc(100% / 2);
+  max-width: 400px;
+  margin: 10px;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/*BAWAH*/
+
+.sci {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.sci li {
+  list-style: none;
+  margin: 4px;
+}
+
+.sci li a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+  background-color: #635f5f;
+  box-shadow: 0 3px 6px rgba(87, 85, 85, 0.16), 0 3px 6px rgba(116, 113, 113, 0.23);
+  transition: 0.5s;
+}
+
+.sci li a:hover {
+  background: #03a9f4;
+  color: #fff;
+}
+
+  
